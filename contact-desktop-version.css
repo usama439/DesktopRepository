@@ -1,0 +1,129 @@
+
+
+.contact-div {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+}
+.contact-heading {
+    color: var(--neutrals-n-0, #FFF);
+text-align: center;
+
+/* Header / 2 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 130% */
+color: var(--neutrals-n-0, #FFF);
+text-align: center;
+
+/* Header / 2 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 130% */
+}
+
+.contact-description {
+    width: 569px;
+    height: 102px;
+    color: var(--primary-b-50, #EBEBFF);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.input-fields{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 27px;}
+
+.input-field-div {
+    width: 447px;
+    height: 60px;
+    margin: 27px;
+    flex-shrink: 0;
+    padding: 5px;
+
+    border-radius: 2px;
+border: 1px solid var(--base-100, #CFD8DC);
+background: var(--mono-white, #FFF);
+}
+
+.input-field-text {
+    display: flex;
+    padding: 5px;
+    width: 393px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--neutral-n-800, #172B4D);
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 117.647% */
+}
+
+.input-field-text::placeholder {
+    font-weight: 400;
+    color: black;
+}
+.input-field-text-div {
+    width: 447px;
+    height: 170px;
+    margin: 0px 27px 27px 27px;
+
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid var(--base-100, #CFD8DC);
+    background: var(--mono-white, #FFF);}
+
+.input-field-text-div::placeholder {
+    color: var(--neutrals-n-60, #B3BAC5);
+    width: 393px;
+    height: 140px;
+    flex-shrink: 0;
+/* Input /Normal */
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */;
+}
+
+.contact-btn {
+    position: relative;
+    left: 35%;
+    display: flex;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    background: var(--neutrals-n-0, #FFF);}
+
+.contact-btn-text {
+    color: var(--primary-b-400, #6070FF);
+text-align: center;
+
+/* Button /Normal */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 141.176% */
+letter-spacing: 0.51px;
+}
+
+.footer {
+display: none;   
+}
+
+
