@@ -1,0 +1,113 @@
+@media only screen and (max-width: 376px) {
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0; /* Remove padding */
+  padding: 0;
+}
+
+.about-heading {
+  position: relative;
+  top: 120px;
+  display: flex;
+  width: 20.4375rem;
+  height: 2.1875rem;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #172b4d);
+
+  /* Header / 2 */
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 130% */
+}
+
+.about-description {
+  margin-top: 150px;
+  width: 20.4375rem;
+  height: 9.1875rem;
+  color: var(--neutrals-n-600, #344563);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.about-sns-connect {
+  color: var(--primary-b-300, #7f8cff);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.resume-btn {
+  height: 50px;
+  color: var(--primary-b-500, #396df2);
+  text-align: center;
+  background: none;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.03188rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-b-400, #6070ff);
+}
+
+.com-lang-div {
+  width: 270px;
+  display: flex;
+  padding: 1rem 1.625rem 1rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.com-lang {
+  color: var(--theme-1-neutrals-3, #344563);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.skills-lang {
+  display: flex;
+  width: 18.9375rem;
+  padding: 0.25rem 0.75rem 0.60725rem 0.75rem;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  border-radius: 0.5rem;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.lang {
+  padding-top: 15px;
+  display: flex;
+  width: 13.4375rem;
+  height: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--neutrals-n-700, #253858);
+
+  /* Body / 3 - Bolder */
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem; /* 133.333% */
+}
+
+.languages {
+  display: flex;
+  padding-top: 0.75rem;
+  align-items: center;
+}
+}

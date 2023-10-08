@@ -1,0 +1,145 @@
+@media only screen and (min-width: 377px) {
+    
+ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove padding */
+    padding: 0;
+}
+.about-col1{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 35%;
+    margin-left: 150px;
+}  
+
+  .about-heading {
+    display: flex;
+width: 447px;
+height: 33px;
+flex-direction: column;
+justify-content: center;
+color: var(--theme-1-neutrals-1, #091E42);
+
+/* Header / 2 */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 130% */
+  }
+  
+  .about-description {
+    width: 447px;
+    height: 102px;
+    color: var(--neutrals-n-600, #344563);
+
+/* Body / 2 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.about-sns-connect {
+    color: var(--primary-b-300, #7F8CFF);
+
+    /* Body / 2 - Bolder */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+.resume-btn {
+    width: 162px;
+    height: 48px;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+border: 1px solid var(--primary-b-400, #6070FF);
+color: var(--primary-b-500, #396DF2);
+text-align: center;
+background: none;
+/* Theme 1 / Button Normal  */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 141.176% */
+letter-spacing: 0.51px;
+}
+.about-col2{
+    position: relative;
+    left: 45%;
+    bottom: 35%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+
+}  
+.com-lang-div {
+    display: flex;
+padding: 16px 26px 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+width: 634px;
+height: 40px;
+}
+
+.com-lang {
+    width: 582px;
+    color: var(--theme-1-neutrals-3, #344563);
+
+/* Body / 1 - Bolder */
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+
+}
+.skills{
+    display: flex;
+padding: 12px;
+align-items: center;
+gap: 12px;
+}
+.skill-div{
+    display: flex;
+width: 122px;
+padding: 12px 12px 20px 12px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+background: var(--neutrals-n-10, #F7F7F9);
+}
+.lang {
+    display: flex;
+width: 98px;
+height: 24px;
+flex-direction: column;
+justify-content: center;  
+color: var(--neutrals-n-700, #253858);
+
+/* Body / 3 - Bolder */
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 133.333% */}
+
+hr{
+    margin-left: 20px;
+    width: 684px;
+background: var(--neutrals-n-40, #ececf4);
+}
+}
